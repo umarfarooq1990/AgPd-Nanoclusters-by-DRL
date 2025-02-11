@@ -1,5 +1,5 @@
 # AgPd Nanoclusters by DRL
-# DRL for exploration of Ag Clusters
+
 DRL Framework for Nanocluster Global Minimum Search
 We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations.
 
