@@ -1,1 +1,1 @@
-# AgPd-Nanoclusters-by-DRL-
+# AgPd Nanoclusters by DRL
