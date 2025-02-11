@@ -4,6 +4,11 @@
 
 We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations.
 
+## Table of Contents
+
+- [Installation](Installation)
+- [Installation](Documents)
+
 Diagram actor critic_page-0002
 
 Ag13reward graph
