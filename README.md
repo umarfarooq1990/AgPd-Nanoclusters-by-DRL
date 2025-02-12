@@ -6,9 +6,10 @@ We have developed a Deep Reinforcement Learning (DRL) framework for exploring na
 
 
 ## How to Run the Code
+
 Set Up the Environment:
 
-### Install the required Conda environment using the provided YAML file:
+Install the required Conda environment using the provided YAML file:
 
 conda env create -f env_clusgym.yml
 
@@ -28,7 +29,7 @@ eleNums = [2, 3]
 
 ## Run the Simulation:
 
-## Execute the script using Python.
+Execute the script using Python.
 
 python gym_trpo_single.py
 
