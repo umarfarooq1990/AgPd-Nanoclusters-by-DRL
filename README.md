@@ -4,27 +4,31 @@
 
 We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations.
 
-## Table of Contents
-
-- [Installation](Installation)
-- [Installation](Documents)
-
-Diagram actor critic_page-0002
-
-Ag13reward graph
 
 How to Run the Code
 Set Up the Environment:
 
 Install the required Conda environment using the provided YAML file:
+
 conda env create -f env_clusgym.yml
+
 Configure the Nanocluster Composition:
 
 Edit gym_trpo_single.py to select the desired nanocluster composition.
-For simulating a cluster of 13 Silver (Ag) atoms:
+
+For simulating the monometallic nanocluster of 5 Silver (Ag) atoms:
+
 eleNames = ['Ag']
-eleNums = [13]
+eleNums = [5]
+
+For simulating the bimetallic nanocluster:
+
+eleNames = ['Ag', 'Pd']
+eleNums = [2, 3]
+
 Run the Simulation:
 
 Execute the script using Python.
+
 python gym_trpo_single.py
+
