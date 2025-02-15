@@ -1,4 +1,4 @@
-name: clusgym
+name: drl
 channels:
   - anaconda
   - conda-forge
