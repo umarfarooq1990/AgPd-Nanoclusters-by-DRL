@@ -7,11 +7,11 @@ We have developed a Deep Reinforcement Learning (DRL) framework for exploring na
 
 ## How to Run the Code
 
-Set Up the Environment:
+### Set Up the Environment:
 
 Install the required Conda environment using the provided YAML file:
 
-conda env create -f env_clusgym.yml
+conda env create -f env_drl.yml
 
 ### Configure the Nanocluster Composition:
 
