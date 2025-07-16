@@ -1,4 +1,4 @@
-# AgPd Nanoclusters by DRL
+# AgPd Nanoclusters by Deep Reinforcement Learning (DRL)
 
 ## DRL Framework for Nanocluster Global Minimum Search
 
@@ -17,7 +17,7 @@ conda env create -f env_drl.yml
 
 Edit gym_trpo_single.py to select the desired nanocluster composition.
 
-### For simulating the monometallic nanocluster of 5 Silver (Ag) atoms:
+### For simulating the monometallic nanocluster of Silver (Ag) atoms:
 
 eleNames = ['Ag']
 
@@ -27,7 +27,7 @@ eleNums = [5]
 
 eleNames = ['Ag', 'Pd']
 
-eleNums = [2, 3]
+eleNums = [4, 9]
 
 ## Run the Simulation:
 
