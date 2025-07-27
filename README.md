@@ -1,39 +1,47 @@
-# AgPd Nanoclusters by Deep Reinforcement Learning (DRL)
+# AgPd-Nanoclusters-by-DRL
 
-## DRL Framework for Nanocluster Global Minimum Search
+### Deep Reinforcenment Learning generation and optimization of Ag-Pd nanoclusters 
 
-We have developed a Deep Reinforcement Learning (DRL) framework for exploring nanoclusters, efficiently identifying ground state and low-energy configurations.
+Please cite thsi paper:
 
+    @article{Farooq_2025,
+doi = {10.1088/1402-4896/adeccc},
+url = {https://dx.doi.org/10.1088/1402-4896/adeccc},
+year = {2025},
+month = {jul},
+publisher = {IOP Publishing},
+volume = {100},
+number = {7},
+pages = {0759b7},
+author = {Farooq, Muhammad Umar and Chen, Fuyi},
+title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
+journal = {Physica Scripta}
+}
+### How to Run the Code
 
-## How to Run the Code
+1. **Set Up the Environment:**
+   - Install the required Conda environment using the provided YAML file:
+     ```bash
+     conda env create -f AgPd.yml
+     ```
 
-### Set Up the Environment:
+2. **Configure the Nanocluster Composition:**
+   - Edit `AgPd.py` to select the nanocluster composition.
 
-Install the required Conda environment using the provided YAML file:
+   - **Monometallic Nanocluster:** For simulating a cluster of 5 atom silver (Ag) or palladium (Pd) atoms:
+     ```python
+     eleNames = ['Ag']
+     eleNums = [5]
+     ```
+   - **Bimetallic Nanoclusters:** For simulating a bimetallic cluster of 10 silver (Ag) and 10 palladium (Pd) atoms:
+     ```python
+     eleNames = ['Ag', 'Cu']
+     eleNums = [10, 10]
+     ```
 
-conda env create -f env_drl.yml
-
-### Configure the Nanocluster Composition:
-
-Edit gym_trpo_single.py to select the desired nanocluster composition.
-
-### For simulating the monometallic nanocluster of Silver (Ag) atoms:
-
-eleNames = ['Ag']
-
-eleNums = [5]
-
-### For simulating the bimetallic nanocluster:
-
-eleNames = ['Ag', 'Pd']
-
-eleNums = [4, 9]
-
-## Run the Simulation:
-
-Execute the script using Python.
-
-python gym_trpo_single.py
-
-[Deep Reinforcement Learning generation and optimization of AgPd nanoclusters.pdf](https://github.com/user-attachments/files/21455454/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
+3. **Run the Simulation:**
+   - Execute the script using Python. 
+     ```bash
+     python AgPd.py  
+     ```
 
