@@ -43,5 +43,8 @@ Please cite this paper:
     author = {Farooq, Muhammad Umar and Chen, Fuyi},
     title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
     journal = {Physica Scripta}
-     ```
+    
+[Deep Reinforcement Learning generation and optimization of AgPd nanoclusters.pdf](https://github.com/user-attachments/files/21455596/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
+
+   
 
