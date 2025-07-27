@@ -35,3 +35,5 @@ Execute the script using Python.
 
 python gym_trpo_single.py
 
+[Deep Reinforcement Learning generation and optimization of AgPd nanoclusters.pdf](https://github.com/user-attachments/files/21455454/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
+
