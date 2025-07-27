@@ -16,8 +16,8 @@ pages = {0759b7},
 author = {Farooq, Muhammad Umar and Chen, Fuyi},
 title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
 journal = {Physica Scripta}
-
 }
+
 ### How to Run the Code
 
 1. **Set Up the Environment:**
