@@ -2,22 +2,6 @@
 
 ### Deep Reinforcenment Learning generation and optimization of Ag-Pd nanoclusters 
 
-Please cite this paper:
-
-    @article{Farooq_2025,
-    doi = {10.1088/1402-4896/adeccc},
-    url = {https://dx.doi.org/10.1088/1402-4896/adeccc},
-    year = {2025},
-    month = {jul},
-    publisher = {IOP Publishing},
-    volume = {100},
-    number = {7},
-    pages = {0759b7},
-    author = {Farooq, Muhammad Umar and Chen, Fuyi},
-    title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
-    journal = {Physica Scripta}
-}
-
 ### How to Run the Code
 
 1. **Set Up the Environment:**
@@ -44,5 +28,20 @@ Please cite this paper:
    - Execute the script using Python. 
      ```bash
      python AgPd.py  
+
+Please cite this paper:
+
+    @article{Farooq_2025,
+    doi = {10.1088/1402-4896/adeccc},
+    url = {https://dx.doi.org/10.1088/1402-4896/adeccc},
+    year = {2025},
+    month = {jul},
+    publisher = {IOP Publishing},
+    volume = {100},
+    number = {7},
+    pages = {0759b7},
+    author = {Farooq, Muhammad Umar and Chen, Fuyi},
+    title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
+    journal = {Physica Scripta}
      ```
 
