@@ -2,7 +2,7 @@
 
 ### Deep Reinforcenment Learning generation and optimization of Ag-Pd nanoclusters 
 
-Please cite thsi paper:
+Please cite this paper:
 
     @article{Farooq_2025,
 doi = {10.1088/1402-4896/adeccc},
@@ -16,6 +16,7 @@ pages = {0759b7},
 author = {Farooq, Muhammad Umar and Chen, Fuyi},
 title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
 journal = {Physica Scripta}
+
 }
 ### How to Run the Code
 
