@@ -2,6 +2,8 @@
 
 ### Deep Reinforcenment Learning generation and optimization of Ag-Pd nanoclusters 
 
+[Deep Reinforcement Learning generation and optimization of AgPd nanoclusters.pdf](https://github.com/user-attachments/files/21455604/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
+
 ### How to Run the Code
 
 1. **Set Up the Environment:**
@@ -20,7 +22,7 @@
      ```
    - **Bimetallic Nanoclusters:** For simulating a bimetallic cluster of 10 silver (Ag) and 10 palladium (Pd) atoms:
      ```python
-     eleNames = ['Ag', 'Cu']
+     eleNames = ['Ag', 'Pd']
      eleNums = [10, 10]
      ```
 
@@ -44,7 +46,4 @@ Please cite this paper:
     title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
     journal = {Physica Scripta}
     
-[Deep Reinforcement Learning generation and optimization of AgPd nanoclusters.pdf](https://github.com/user-attachments/files/21455596/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
-
-   
-
+ 
