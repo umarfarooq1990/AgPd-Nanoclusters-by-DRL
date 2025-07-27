@@ -35,10 +35,9 @@ Please cite this paper:
 
     @article{Farooq_2025,
     title = {Deep Reinforcement learning generation and optimization of AgPd nanoclusters},
+    author = {Farooq, Muhammad Umar and Chen, Fuyi},
     doi = {10.1088/1402-4896/adeccc},
+    journal = {Physica Scripta}
     year = {2025},
     publisher = {IOP Publishing},
-    author = {Farooq, Muhammad Umar and Chen, Fuyi},
-    journal = {Physica Scripta}
     
- 
