@@ -48,6 +48,7 @@ Any nanocluster configuration can be simulated by changing the `eleNames` and `e
 Please cite the following paper if you use this code in your research:
 
 ```bibtex
+{
 @article{Farooq_2025,
     title = {Deep Reinforcement Learning Generation and Optimization of AgPd Nanoclusters},
     author = {Farooq, Muhammad Umar and Chen, Fuyi},
