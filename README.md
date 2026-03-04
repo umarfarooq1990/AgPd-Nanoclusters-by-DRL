@@ -60,7 +60,3 @@ Please cite the following paper if you use this code in your research:
     publisher = {IOP Publishing}
 }
 ```
-
-### Open Source Code
-
-This project is open-source, and we encourage you to use and contribute to it. The code is available under the [MIT License](LICENSE). Feel free to fork, modify, and distribute the code as needed. We welcome contributions and feedback from the community to improve the functionality and performance of the model.
