@@ -3,10 +3,7 @@
 
 ### Deep Reinforcement Learning Generation and Optimization of Ag-Pd Nanoclusters
 
-For detailed insights, please refer to the paper:  
-[Deep Reinforcement Learning Generation and Optimization of Ag-Pd Nanoclusters](https://github.com/user-attachments/files/21455604/Deep.Reinforcement.Learning.generation.and.optimization.of.AgPd.nanoclusters.pdf)
-
-The code is adapted from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl). We thank the authors for making the code available on github. We modified the code to work with AgPd nanoclusters.
+This is an adapted version of the DRL framework from [**clusgym_drl**](https://github.com/rajeshkochi444/clusgm_drl) J. Phys. Chem. A 2024, 128, 42, 9122–9134. We thank the authors for making the code available on github. We modified the code to work with AgPd nanoclusters.
 
 ### How to Run the Code
 
