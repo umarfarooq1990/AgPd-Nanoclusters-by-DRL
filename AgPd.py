@@ -1,7 +1,6 @@
 import matplotlib
 matplotlib.use("Agg")
 import gym
-#from surface_seg.envs.mcs_env import MCSEnv
 from clusgym  import MCSEnv
 import gym.wrappers
 import numpy as np
@@ -23,11 +22,7 @@ save_dir = 'result_' + ''.join(f"{name}{num}" for name, num in zip(eleNames, ele
 
 
 def setup_env(recording=False):
-    
-    # Set up gym
-    #MCS_gym = MCSEnv(fingerprints=True, 
-                    #permute_seed=None)
-   
+      
     # Set up gym
     MCS_gym = MCSEnv(eleNames=eleNames,
                      eleNums=eleNums,
@@ -38,15 +33,6 @@ def setup_env(recording=False):
                      save_every = 1,
                      n_unique_pool = 25,
                     )
-
-
- 
-    #if recording:
-    # Wrap the gym to provide video rendering every 50 steps
-        #MCS_gym = gym.wrappers.Monitor(MCS_gym, 
-                                         #"./vid", 
-                                         #force=True,
-                                        #video_callable = lambda episode_id: (episode_id)%50==0) #every 50, starting at 51
     
     #Convert gym to tensorforce environment
     env = tensorforce.environments.OpenAIGym(MCS_gym,
