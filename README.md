@@ -3,7 +3,7 @@
 
 ### Deep Reinforcement Learning Generation and Optimization of Ag-Pd Nanoclusters
 
-This is a modified and adapted version of the DRL framework from:
+This is a modified and adapted version of the DRL framework from: 
 
 **Exploring Nanocluster Potential Energy Surfaces via Deep Reinforcement Learning: Strategies for Global Minimum Search**<br>
 Rajesh K. Raju <br>
