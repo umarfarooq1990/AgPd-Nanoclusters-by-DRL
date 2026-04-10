@@ -1,5 +1,5 @@
 
-# AgPd Nanoclusters by Deep Reinforcement Learning — DRL Framework for Ag-Pd Nanocluster Global Minimum Search (version 2.0).
+# AgPd Nanoclusters by Deep Reinforcement Learning — A Proximal Policy Optimization (PPO) DRL Framework for Global Minimum Search of nanoclusters (version 2.0).
 
 ### Deep Reinforcement Learning Generation and Optimization of Ag-Pd Nanoclusters
 
